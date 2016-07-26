@@ -1,0 +1,65 @@
+<ion-tabs tabs-type="tabs-icon-top" class="tabs-icon-top">
+    <ion-tab title="Thurs" icon-on="ion-ios7-calendar" icon-off="ion-ios7-calendar-outline">
+        <ion-view title="Thursday 23 Oct 2014">
+          <ion-nav-buttons side="left">
+            <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+          </ion-nav-buttons>
+          <ion-content class="has-header">
+            <ion-list>
+              <ion-item ng-repeat="item in programs.thurs">
+                <span class="left">{{item.activity}}</span>
+                <span class="item-note">{{item.time}}</span>
+              </ion-item>
+            </ion-list>
+          </ion-content>
+        </ion-view>
+    </ion-tab>
+
+    <ion-tab title="Fri" icon-on="ion-ios7-calendar" icon-off="ion-ios7-calendar-outline">
+         <ion-view title="Friday 24 Oct 2014">
+          <ion-nav-buttons side="left">
+            <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+          </ion-nav-buttons>
+          <ion-content class="has-header">
+            <ion-list>
+              <ion-item ng-repeat="item in programs.fri">
+                <span class="left">{{item.activity}}</span>
+                <span class="item-note">{{item.time}}</span>
+              </ion-item>
+            </ion-list>
+          </ion-content>
+        </ion-view>
+    </ion-tab>
+
+    <ion-tab title="Sat" icon-on="ion-ios7-calendar" icon-off="ion-ios7-calendar-outline">
+        <ion-view title="Saturday 25 Oct 2014">
+          <ion-nav-buttons side="left">
+            <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+          </ion-nav-buttons>
+          <ion-content class="has-header">
+            <ion-list>
+              <ion-item ng-repeat="item in programs.sat">
+                <span class="left">{{item.activity}}</span>
+                <span class="item-note">{{item.time}}</span>
+              </ion-item>
+            </ion-list>
+          </ion-content>
+        </ion-view>
+    </ion-tab>
+    
+    <ion-tab title="Sun" icon-on="ion-ios7-calendar" icon-off="ion-ios7-calendar-outline">
+        <ion-view title="Sunday 26 Oct 2014">
+          <ion-nav-buttons side="left">
+            <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+          </ion-nav-buttons>
+          <ion-content class="has-header">
+            <ion-list>
+              <ion-item ng-repeat="item in programs.sun">
+                <span class="left">{{item.activity}}</span>
+                <span class="item-note">{{item.time}}</span>
+              </ion-item>
+            </ion-list>
+          </ion-content>
+        </ion-view>
+    </ion-tab>
+</ion-tabs>
